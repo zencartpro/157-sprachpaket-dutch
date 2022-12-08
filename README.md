@@ -6,7 +6,7 @@ Freigegebene getestete Versionen für den Einsatz in Livesystemen ausschließlic
 * https://github.com/zencartpro/157-sprachpaket-dutch/releases
 
 Anpassung des Dutch Language Pack von Zen4All
-* (https://github.com/Zen4All-nl/Dutch-Language-Pack-for-Zen-Cart) 
+(https://github.com/Zen4All-nl/Dutch-Language-Pack-for-Zen-Cart) 
 für die deutsche Zen Cart Version 1.5.7
 
 utf-8
