@@ -1,15 +1,15 @@
 <?php
 /**
- * Zen Cart German Specific
- * @package languageDefines
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Specific (158 code in 157)
+ 
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
  * Translations by Zen4All (https://zen4all.nl)
  * https://github.com/Zen4All-nl/Dutch-Language-Pack-for-Zen-Cart
  
- * @version $Id: login.php 2019-06-24 19:05:14Z webchills $
+ * @version $Id: login.php 2024-04-04 19:05:14Z webchills $
  */
 
 define('NAVBAR_TITLE', 'Inloggen');
@@ -28,7 +28,7 @@ define('HEADING_RETURNING_CUSTOMER_SPLIT', 'Bestaande klant');
 
 define('TEXT_RETURNING_CUSTOMER_SPLIT', 'Om door te gaan alstublieft inloggen met uw <strong>' . STORE_NAME . '</strong> account.');
 
-define('TEXT_PASSWORD_FORGOTTEN', 'Wachtwoord vergeten');
+
 
 define('TEXT_LOGIN_ERROR', 'Fout: Het opgegeven e-mail adres en wachtwoord horen niet bij elkaar.');
 define('TEXT_VISITORS_CART', '<strong>NB:</strong> De inhoud van uw &quot;gasten winkelwagen&quot; zal worden overgenomen in uw eigen &quot;leden winkelwagen&quot; zodra u inlogt. <a href="javascript:session_win();">[Meer info]</a>');

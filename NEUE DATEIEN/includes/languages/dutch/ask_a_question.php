@@ -1,12 +1,13 @@
 <?php
 /**
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Specific (158 code in 157)
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
  * Translations by Zen4All (https://zen4all.nl)
  * https://github.com/Zen4All-nl/Dutch-Language-Pack-for-Zen-Cart
- * @version $Id: ask_a_question.php 2021-12-27 21:02:53Z webchills $
+ * @version $Id: ask_a_question.php 2024-04-04 21:02:53Z webchills $
  */
 define('NAVBAR_TITLE', 'Stel een vraag');
 
@@ -16,14 +17,9 @@ define('FORM_TITLE', 'Wat is je vraag?');
 define('TEXT_SUCCESS', 'Uw bericht is succesvol verzonden.');
 define('EMAIL_SUBJECT', 'Productaanvraag bij ' . STORE_NAME);
 
-define('ENTRY_NAME', 'Voor-en achternaam:');
-define('ENTRY_EMAIL', 'E-mailadres:');
-define('ENTRY_TELEPHONE', 'Telefoonnummer:');
-define('ENTRY_ENQUIRY', 'Bericht:');
+
 define('TEXT_PRODUCT_NAME', 'Productnaam: ');
+define('CALL_FOR_PRICE_HEADING_TITLE', 'Bel voor prijs ');
+define('CALL_FOR_PRICE_FORM_TITLE','Vul uw contactgegevens in');
+define('CALL_FOR_PRICE_EMAIL_SUBJECT', 'Artikel prijsaanvraag naar ' . STORE_NAME);
 
-define('SEND_TO_TEXT','Stuur een email naar:');
-define('ENTRY_EMAIL_NAME_CHECK_ERROR','Sorry, is je naam correct? Ons systeem vereist een minimum van ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' karakters. Probeer het alstublieft opnieuw.');
-define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','Ben je je bericht vergeten? We horen graag van je. In het onderstaande tekstgedeelte kunt u uw opmerkingen typen.');
-
-define('NOT_LOGGED_IN_TEXT', 'Niet ingelogd');

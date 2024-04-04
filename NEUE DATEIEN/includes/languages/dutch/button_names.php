@@ -1,13 +1,13 @@
 <?php
 /**
- * Zen Cart German Specific
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Specific (158 code in 157 / zencartpro adaptations)
+ * @copyright Copyright 2003-2024 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
  * Translations by Zen4All (https://zen4all.nl)
  * https://github.com/Zen4All-nl/Dutch-Language-Pack-for-Zen-Cart
- * @version $Id: button_names.php 2022-01-14 19:11:14Z webchills $
+ * @version $Id: button_names.php 2024-04-04 19:11:14Z webchills $
  */
 
 
@@ -47,6 +47,8 @@ define('BUTTON_IMAGE_SEND_ANOTHER', 'button_send_another.gif');
 define('BUTTON_IMAGE_SHIPPING_ESTIMATOR', 'button_shipping_estimator.gif');
 define('BUTTON_IMAGE_SOLD_OUT','button_sold_out.gif');
 define('BUTTON_IMAGE_SOLD_OUT_SMALL','button_sold_out_sm.gif');
+define('BUTTON_IMAGE_DROPSHIPPING','button_sold_out.gif');
+define('BUTTON_IMAGE_DROPSHIPPING_SMALL','button_sold_out_sm.gif');
 define('BUTTON_IMAGE_SUBMIT', 'button_submit.gif');
 define('BUTTON_IMAGE_UNSUBSCRIBE', 'button_unsubscribe.gif');
 define('BUTTON_IMAGE_UPDATE', 'button_update.gif');
@@ -83,6 +85,8 @@ define('BUTTON_CONTINUE_SHOPPING_ALT', 'Verder winkelen');
 define('BUTTON_DELETE_ALT', 'Verwijderen');
 define('BUTTON_DELETE_SMALL_ALT', 'Verwijderen');
 define('BUTTON_DOWNLOAD_ALT', 'Nu downloaden');
+define('BUTTON_DROPSHIPPING_ALT', 'Speciale bestelling');
+define('BUTTON_DROPSHIPPING_SMALL_ALT', 'Speciale bestelling');
 define('BUTTON_EDIT_SMALL_ALT', 'Aanpassen');
 define('BUTTON_IN_CART_ALT', 'Toevoegen aan winkelwagen');
 define('BUTTON_LOGIN_ALT', 'Inloggen');
@@ -101,6 +105,7 @@ define('BUTTON_SHIPPING_ESTIMATOR_ALT', 'Verzendkosten berekenen');
 define('BUTTON_SOLD_OUT_ALT', 'Uitverkocht');
 define('BUTTON_SOLD_OUT_SMALL_ALT', 'Uitverkocht');
 define('BUTTON_SUBMIT_ALT', 'Informatie versturen');
+define('BUTTON_SUBMIT_GO_ALT','Ga!');
 define('BUTTON_UNSUBSCRIBE', 'Afmelden');
 define('BUTTON_UPDATE_ALT', 'Bijwerken');
 define('BUTTON_VIEW_SMALL_ALT', 'Bekijk');

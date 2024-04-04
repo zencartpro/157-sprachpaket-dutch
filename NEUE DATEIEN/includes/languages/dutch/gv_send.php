@@ -1,14 +1,14 @@
 <?php
 /**
- * Zen Cart German Specific
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Specific (158 code in 157)
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
  * Translations by Zen4All (https://zen4all.nl)
  * https://github.com/Zen4All-nl/Dutch-Language-Pack-for-Zen-Cart
  
- * @version $Id: gv_send.php 2022-02-04 18:52:14Z webchills $
+ * @version $Id: gv_send.php 2024-04-04 18:52:14Z webchills $
  */
 
 define('HEADING_TITLE', 'Verstuur ' . TEXT_GV_NAME);
@@ -18,8 +18,7 @@ define('NAVBAR_TITLE', 'Verstuur ' . TEXT_GV_NAME);
 define('EMAIL_SUBJECT', 'Bericht van ' . STORE_NAME);
 define('HEADING_TEXT','<br>Vul hier de gegevens in van uw ' . TEXT_GV_NAME . ' die u wilt versturen. Indien u meer informatie wilt verwijzen wij u naar de <a href="' . zen_href_link(FILENAME_GV_FAQ, '', 'NONSSL').'">' . GV_FAQ . '.</a><br>');
 define('ENTRY_NAME', 'Naam ontvanger:');
-define('ENTRY_EMAIL', 'E-mailadres ontvanger:');
-define('ENTRY_MESSAGE', 'Boodschap voor ontvanger:');
+
 define('ENTRY_AMOUNT', 'Hoeveelheid om te versturen:');
 define('ERROR_ENTRY_TO_NAME_CHECK', 'De naam van de ontvanger ontbreekt. Vul deze aub in. ');
 define('ERROR_ENTRY_AMOUNT_CHECK', 'De ' . TEXT_GV_NAME . ' bedrag lijkt niet correct te zijn. Probeer het alstublieft opnieuw.');
@@ -29,7 +28,7 @@ define('SECONDARY_MESSAGE', 'Beste %s,<br><br>' . 'U ontvangt hierbij een ' . TE
 define('PERSONAL_MESSAGE', 'Boodschap van %s luidt');
 define('TEXT_SUCCESS', 'Gefeliciteerd, uw ' . TEXT_GV_NAME . ' is succesvol verzonden.');
 define('TEXT_SEND_ANOTHER', 'Wilt u nog een ' . TEXT_GV_NAME . ' versturen?');
-define('TEXT_AVAILABLE_BALANCE','Beschikbaar tegoed: ');
+
 
 define('EMAIL_GV_TEXT_SUBJECT', 'Een cadeau van %s');
 define('EMAIL_SEPARATOR', '----------------------------------------------------------------------------------------');

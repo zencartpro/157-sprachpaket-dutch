@@ -1,13 +1,13 @@
 <?php
 /**
-
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Specific (158 code in 157)
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
  * Translations by Zen4All (https://zen4all.nl)
  * https://github.com/Zen4All-nl/Dutch-Language-Pack-for-Zen-Cart
- * @version $Id: address_book_process.php 2022-01-14 17:05:14Z webchills $
+ * @version $Id: address_book_process.php 2024-04-04 17:05:14Z webchills $
  */
 
 define('NAVBAR_TITLE_1', 'Mijn account');
@@ -24,7 +24,7 @@ define('HEADING_TITLE', 'Adresdetails');
 
 define('DELETE_ADDRESS_DESCRIPTION', 'Weet u zeker dat u het geselecteerde adres wil verwijderen uit uw adressenboek?');
 
-define('SET_AS_PRIMARY', 'Instellen als hoofdadres.');
+
 
 define('SUCCESS_ADDRESS_BOOK_ENTRY_DELETED', 'Het gekozen adres is sucesvol verwijderd uit uw adressenboek.');
 define('SUCCESS_ADDRESS_BOOK_ENTRY_UPDATED', 'Adreswijzigingen zijn sucesvol opgeslagen in uw adressenboek.');
