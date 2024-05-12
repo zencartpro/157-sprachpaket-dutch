@@ -271,34 +271,71 @@ define('META_TAG_PRODUCTS_PRICE_IS_FREE_TEXT','GRATIS!');
 
 define('MORE_INFO_TEXT','... meer info');
 
+define('OTHER_IMAGE_BLACK_SEPARATOR', 'pixel_black.gif');
+define('OTHER_IMAGE_BOX_NOTIFY_REMOVE', 'box_products_notifications_remove.gif');
+define('OTHER_IMAGE_BOX_NOTIFY_YES', 'box_products_notifications.gif');
+define('OTHER_IMAGE_BOX_WRITE_REVIEW', 'box_write_review.gif');
+define('OTHER_IMAGE_CALL_FOR_PRICE', 'call_for_prices.png');
+
+define('OTHER_IMAGE_CUSTOMERS_AUTHORIZATION', 'customer_authorization.gif');
+define('OTHER_IMAGE_CUSTOMERS_AUTHORIZATION_ALT', 'Wacht op autorisatie van klant...');
+define('OTHER_IMAGE_DOWN_FOR_MAINTENANCE', 'down_for_maintenance.gif');
+define('OTHER_IMAGE_PRICE_IS_FREE', 'free.png');
+define('OTHER_IMAGE_REVIEWS_RATING_STARS_FIVE', 'stars_5_small.png');
+define('OTHER_IMAGE_REVIEWS_RATING_STARS_FOUR', 'stars_4_small.png');
+define('OTHER_IMAGE_REVIEWS_RATING_STARS_ONE', 'stars_1_small.png');
+define('OTHER_IMAGE_REVIEWS_RATING_STARS_THREE', 'stars_3_small.png');
+define('OTHER_IMAGE_REVIEWS_RATING_STARS_TWO', 'stars_2_small.png');
+define('OTHER_REVIEWS_RATING_STARS_FIVE_ALT', 'Vijf sterren');
+define('OTHER_REVIEWS_RATING_STARS_FOUR_ALT', 'Vier sterren');
+define('OTHER_REVIEWS_RATING_STARS_ONE_ALT', 'Één ster');
+define('OTHER_REVIEWS_RATING_STARS_THREE_ALT', 'Drie sterren');
+define('OTHER_REVIEWS_RATING_STARS_TWO_ALT', 'Twee sterren');
+
+
 define('OUT_OF_STOCK_CANT_CHECKOUT', 'Producten gemarkeerd met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet op voorraad, of er zijn niet voldioende op voorraad voor uw bestelling.<br>Pas aub de hoeveelheid van de  producten gemarkeerd met (' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '). Bednkt');
 define('OUT_OF_STOCK_CAN_CHECKOUT', 'Producten gemarkeerd met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet op voorraad.<br>Items die niet op voorraad zijn worden in backorder geplaatst.');
 
-define('PAYMENT_JAVASCRIPT_DISABLED', 'We could not continue with checkout as Javascript is disabled. You must enable it to continue');
+
+define('PAGE_ACCOUNT','Mijn account');
+define('PAGE_ACCOUNT_EDIT','Accountinformatie');
+define('PAGE_ACCOUNT_HISTORY','Bestelhistorie');
+define('PAGE_ACCOUNT_NOTIFICATIONS','Nieuwsbrief abonnementen');
+define('PAGE_ADDRESS_BOOK','Adresboek');
+define('PAGE_ADVANCED_SEARCH','Zoek op');
+define('PAGE_CHECKOUT_SHIPPING','Checkout');
+define('PAGE_FEATURED','Aanbiedingen');
+define('PAGE_PRODUCTS_ALL','Alle producten');
+define('PAGE_PRODUCTS_NEW','Nieuwe producten');
+define('PAGE_REVIEWS','Taxaties');
+define('PAGE_SHOPPING_CART','Winkelwagen');
+define('PAGE_SPECIALS','Aanbiedingen');
+
+define('PAYMENT_JAVASCRIPT_DISABLED', 'We konden niet doorgaan met afrekenen omdat Javascript is uitgeschakeld. U moet het inschakelen om verder te gaan');
 define('PAYMENT_METHOD_GV', 'Cadeau- of waardebon');
 define('PAYMENT_MODULE_GV', 'Waardebon/Korting');
 
 
 define('PLEASE_SELECT', 'Selecteer ...');
+define('PREVNEXT_BUTTON_NEXT', '[Volgende&nbsp;&raquo;]');
 define('PULL_DOWN_SHIPPING_ESTIMATOR_SELECT', 'Maak een keuze');
-define('PULL_DOWN_ALL','Maak een keuze');
-define('PULL_DOWN_MANUFACTURERS','- Herstellen -');
-define('PULL_DOWN_ALL_RESET','- Herstellen - ');
+
 define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Vorige pagina');
 define('PREVNEXT_TITLE_NEXT_PAGE', 'Volgende pagina');
 define('PREVNEXT_TITLE_PAGE_NO', 'Pagina %d');
 define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Vorige %d pagina\'s');
 define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Volgende %d pagina\'s');
 define('PREVNEXT_BUTTON_PREV', '[&laquo;&nbsp;Vorige]');
-define('PREVNEXT_BUTTON_NEXT', '[Volgende&nbsp;&raquo;]');
+
 
 define('PRODUCTS_ORDER_QTY_TEXT_IN_CART','Aantal in winkelwagen: ');
 define('PRODUCTS_ORDER_QTY_TEXT','In winkelwagen: ');
 define('PRODUCTS_PRICE_IS_FREE_TEXT','Gratis!');
 define('PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT','Prijs op aanvraag');
+define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING','Max:');
 define('PRODUCTS_QUANTITY_MIN_TEXT_LISTING','Min: ');
 define('PRODUCTS_QUANTITY_UNIT_TEXT_LISTING','Aantal: ');
-define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING','Max:');
+
 
 define('PRODUCT_PRICE_DISCOUNT_PREFIX','Korting:&nbsp;');
 define('PRODUCT_PRICE_DISCOUNT_PERCENTAGE','% korting');
@@ -306,10 +343,14 @@ define('PRODUCT_PRICE_DISCOUNT_AMOUNT','&nbsp;korting');
 
 
 define('PRODUCT_PRICE_SALE','Aanbieding:&nbsp;');
+define('PULL_DOWN_ALL','Maak een keuze');
 
+define('PULL_DOWN_ALL_RESET','- Herstellen - ');
 define('PULL_DOWN_DEFAULT', 'Selecteer uw land');
+define('PULL_DOWN_MANUFACTURERS','- Herstellen -');
 
-
+define('PULL_DOWN_SHIPPING_ESTIMATOR_SELECT','Selecteer');
+define('SEND_TO_TEXT','Stuur een e-mail naar:');
 define('SET_AS_PRIMARY' , 'Stel in als Hoofdadres');
 define('SUCCESS_ADDED_TO_CART_PRODUCT', 'Gekozen artikel is in uw winkelwagen geplaatst...');
 
