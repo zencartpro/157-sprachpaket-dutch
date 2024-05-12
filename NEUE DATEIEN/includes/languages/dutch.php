@@ -8,7 +8,7 @@
 * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
 * Translations by Zen4All (https://zen4all.nl)
 * https://github.com/Zen4All-nl/Dutch-Language-Pack-for-Zen-Cart
-* @version $Id: dutch.php 2024-04-04 10:39:57Z webchills $
+* @version $Id: dutch.php 2024-05-12 18:39:57Z webchills $
 */
 // -----
 // Since the languages are now loaded via classes, the $locales definition
@@ -16,11 +16,11 @@
 // other processing.
 // do NOT change or remove the following 3 lines
 global $locales;
-$locales = ['nl_NL', 'nl_NL.utf8', 'nl'];
+$locales = ['nl_NL.utf8','nl_NL', nl'];
 @setlocale(LC_TIME, $locales);
 //
-define('ARIA_DELETE_ITEM_FROM_CART', 'Delete this item from the cart');
-define('ARIA_EDIT_QTY_IN_CART','Edit quantity in cart');
+define('ARIA_DELETE_ITEM_FROM_CART', 'Item uit winkelmand verwijderen');
+define('ARIA_EDIT_QTY_IN_CART','Hoeveelheid in winkelmandje wijzigen');
 define('ARIA_PAGINATION_','');
 define('ARIA_PAGINATION_CURRENT_PAGE','Huidige pagina');
 define('ARIA_PAGINATION_CURRENTLY_ON',', nu op pagina %s');
@@ -145,19 +145,28 @@ define('ENTRY_COUNTRY', 'Land:');
 define('ENTRY_COUNTRY_ERROR', 'U moet uw land kiezen uit het pull down menu.');
 define('ENTRY_COUNTRY_TEXT', '*');
 define('ENTRY_CUSTOMERS_REFERRAL', 'Referentienummer:');
+define('ENTRY_DATE_FROM','Datum van:');
 define('ENTRY_DATE_OF_BIRTH', 'Geboortedatum:');
 define('ENTRY_DATE_OF_BIRTH_ERROR', 'Klopt uw geboortedatum? Ons systeem verwacht een datum in dit formaat: DD/MM/YYYY (bijv. 21/05/1970) of dit formaat: DD-MM-YYYY (bijv. 21-05-1970)');
 define('ENTRY_DATE_OF_BIRTH_TEXT', '* (bijv. 21/05/1995 of 05-21-1970)');
+define('ENTRY_DATE_TO','Datum tot:');
+define('ENTRY_EMAIL','E-mailadres:');
 define('ENTRY_EMAIL_ADDRESS', 'E-mailadres:');
-define('ENTRY_EMAIL_ADDRESS_ERROR', 'Uw e-mailadres moet voor ons systeem minimaal ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tekens en een @ bevatten.');
 define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Heeft u het e-mailadres correct ingevoerd? Controleer dit en probeer het nogmaals.');
-define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Uw e-mailadres is reeds bij ons geregistreerd! Probeer aan te melden met uw bestaande account. Weet u uw wachtwoord niet meer, gebruik dan de Wachtwoord vergeten optie. Heeft u een nieuw e-mailadres geef dit door via Mijn account.');
-define('ENTRY_EMAIL_ADDRESS_TEXT', '*');
+
 define('ENTRY_EMAIL_ADDRESS_CONFIRM', 'Bevestig E-Mail:');
 define('ENTRY_EMAIL_ADDRESS_CONFIRM_NOT_MATCHING', 'De bevestigings Email moet overeenkomenmet uw Email Adres.');
+define('ENTRY_EMAIL_ADDRESS_ERROR', 'Uw e-mailadres moet voor ons systeem minimaal ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tekens en een @ bevatten.');
+define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Uw e-mailadres is reeds bij ons geregistreerd! Probeer aan te melden met uw bestaande account. Weet u uw wachtwoord niet meer, gebruik dan de Wachtwoord vergeten optie. Heeft u een nieuw e-mailadres geef dit door via Mijn account.');
+define('ENTRY_EMAIL_ADDRESS_TEXT', '*');
+define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','Ben je je bericht vergeten? We horen graag van je. U kunt uw opmerkingen in het onderstaande tekstveld invoeren.');
+
 
 define('ENTRY_EMAIL_HTML_DISPLAY','HTML');
+define('ENTRY_EMAIL_NAME_CHECK_ERROR','Pardon, is uw naam correct? Ons systeem vereist een minimum van ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' tekens. Probeer het opnieuw.');
+define('ENTRY_EMAIL_PREFERENCE','Nieuwsbrief en e-mail formaat'); 
 define('ENTRY_EMAIL_TEXT_DISPLAY','Alleen tekst');
+define('ENTRY_ENQUIRY','Bericht:');
 define('ENTRY_FAX_NUMBER', 'Fax:');
 define('ENTRY_FAX_NUMBER_TEXT', '');
 define('ENTRY_FIRST_NAME', 'Voornaam:');
@@ -166,31 +175,37 @@ define('ENTRY_FIRST_NAME_TEXT', '*');
 define('ENTRY_GENDER', 'Aanhef:');
 define('ENTRY_GENDER_ERROR', 'Kies uw aanhef.');
 define('ENTRY_GENDER_TEXT', '*');
-
+define('ENTRY_INCLUDE_SUBCATEGORIES','Subcategorieën opnemen');
 define('ENTRY_LAST_NAME', 'Achternaam:');
 define('ENTRY_LAST_NAME_ERROR', 'Uw achternaam moet voor ons systeem minimaal ' . ENTRY_LAST_NAME_MIN_LENGTH . ' letters hebben.');
 define('ENTRY_LAST_NAME_TEXT', '*');
-
+define('ENTRY_NAME','Volledige naam:');
 define('ENTRY_NEWSLETTER', 'Ja, ik ontvang graag de nieuwsbrief');
 define('ENTRY_NEWSLETTER_TEXT', '');
 define('ENTRY_NICK', 'Gebruikersnaam forum:');
-define('ENTRY_NICK_TEXT', '*'); 
 define('ENTRY_NICK_DUPLICATE_ERROR', 'Deze gebruikersnaam is reeds in gebruik. Vul een andere gebruikersnaam in.');
+define('ENTRY_NICK_TEXT', '*'); 
+
 define('ENTRY_PASSWORD', 'Wachtwoord:');
-define('ENTRY_PASSWORD_ERROR', 'Voor wachtwoord moet u minimaal ' . ENTRY_PASSWORD_MIN_LENGTH . ' tekens invoeren.');
-define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'Wachtwoorden komen niet overeen, probeer het nogmaals.');
-define('ENTRY_PASSWORD_TEXT', '* (minimaal ' . ENTRY_PASSWORD_MIN_LENGTH . ' tekens)');
+
 define('ENTRY_PASSWORD_CONFIRMATION', 'Herhaal wachtwoord:');
 define('ENTRY_PASSWORD_CONFIRMATION_TEXT', '*');
 define('ENTRY_PASSWORD_CURRENT', 'Huidige wachtwoord:');
 define('ENTRY_PASSWORD_CURRENT_TEXT', '*');
+define('ENTRY_PASSWORD_ERROR', 'Voor wachtwoord moet u minimaal ' . ENTRY_PASSWORD_MIN_LENGTH . ' tekens invoeren.');
+define('ENTRY_PASSWORD_ERROR_NOT_MATCHING', 'Wachtwoorden komen niet overeen, probeer het nogmaals.');
 define('ENTRY_PASSWORD_NEW', 'Nieuw wachtwoord:');
-define('ENTRY_PASSWORD_NEW_TEXT', '*');
 define('ENTRY_PASSWORD_NEW_ERROR', 'Uw nieuwe wachtwoord moet minstens ' . ENTRY_PASSWORD_MIN_LENGTH . ' tekens bevatten.');
 define('ENTRY_PASSWORD_NEW_ERROR_NOT_MATCHING', 'Wachtwoorden komen niet overeen, probeer het nogmaals.');
+define('ENTRY_PASSWORD_NEW_TEXT', '*');
+define('ENTRY_PASSWORD_TEXT', '* (minimaal ' . ENTRY_PASSWORD_MIN_LENGTH . ' tekens)');
 define('ENTRY_POST_CODE', 'Postcode:');
 define('ENTRY_POST_CODE_ERROR', 'Voor postcode moet u minimaal ' . ENTRY_POSTCODE_MIN_LENGTH . ' tekens invoeren.');
 define('ENTRY_POST_CODE_TEXT', '*');
+define('ENTRY_PRICE_FROM','Prijs van:');
+define('ENTRY_PRICE_TO','Prijs tot:');
+define('ENTRY_RECIPIENT_NAME','Naam van de ontvanger:');
+define('ENTRY_REQUIRED_SYMBOL','*');
 define('ENTRY_STATE', 'Provincie:');
 define('ENTRY_STATE_ERROR', 'Voor provincie moet u minimaal ' . ENTRY_STATE_MIN_LENGTH . ' tekens invoeren.');
 define('ENTRY_STATE_ERROR_SELECT', 'Kies uw provincie uit het rolmenu.');
@@ -200,10 +215,11 @@ define('ENTRY_STREET_ADDRESS_ERROR', 'Uw straatnaam moet voor ons systeem minima
 define('ENTRY_STREET_ADDRESS_TEXT', '*');
 define('ENTRY_SUBURB', 'Extra adresregel:');
 define('ENTRY_SUBURB_TEXT', '');
+define('ENTRY_TELEPHONE','Telefoon:');
 define('ENTRY_TELEPHONE_NUMBER', 'Telefoon:');
 define('ENTRY_TELEPHONE_NUMBER_ERROR', 'Voor telefoonnummer moet u minimaal ' . ENTRY_TELEPHONE_MIN_LENGTH . ' nummers invullen.');
 define('ENTRY_TELEPHONE_NUMBER_TEXT', '*');
-
+define('ERROR_AT_LEAST_ONE_INPUT','Ten minste één van de velden in het zoekformulier moet worden ingevuld.');
 define('ERROR_CART_UPDATE', 'Alstublieft order aanpassen...<br>');
 define('ERROR_CONDITIONS_NOT_ACCEPTED', 'Om uw bestelling uit te kunnen voeren verzoeken wij u onze algemene (leverings)voorwaarden door te lezen en te accepteren door het onderstaande hokje aan te vinken.');
 define('ERROR_CORRECTIONS_HEADING','Corrigeer alstublieft: <br>');
