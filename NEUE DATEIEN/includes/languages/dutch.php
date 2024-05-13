@@ -8,7 +8,7 @@
 * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
 * Translations by Zen4All (https://zen4all.nl)
 * https://github.com/Zen4All-nl/Dutch-Language-Pack-for-Zen-Cart
-* @version $Id: dutch.php 2024-05-13 09:39:57Z webchills $
+* @version $Id: dutch.php 2024-05-13 14:06:57Z webchills $
 */
 // -----
 // Since the languages are now loaded via classes, the $locales definition
@@ -22,7 +22,6 @@ $locales = ['nl_NL.utf8','nl_NL', 'nl'];
 define('ARIA_DELETE_ITEM_FROM_CART','Item uit winkelmand verwijderen');
 define('ARIA_EDIT_QTY_IN_CART','Hoeveelheid in winkelmandje wijzigen');
 define('ARIA_PAGINATION_','');
-
 define('ARIA_PAGINATION_CURRENTLY_ON',', nu op pagina %s');
 define('ARIA_PAGINATION_CURRENT_PAGE','Huidige pagina');
 define('ARIA_PAGINATION_ELLIPSIS_PREVIOUS','Haal de vorige groep pagina\'s op');
@@ -34,7 +33,6 @@ define('ARIA_PAGINATION_PREVIOUS_PAGE','Ga naar de vorige pagina');
 define('ARIA_PAGINATION_ROLE_LABEL_GENERAL','Paginering');
 define('ARIA_PAGINATION_ROLE_LABEL_FOR','%s Paginering');
 define('ARIA_QTY_ADD_TO_CART','Enter quantity to add to cart');
-
 define('ASK_A_QUESTION', 'Stel een vraag over dit item');
 define('ATTRIBUTES_PRICE_DELIMITER_PREFIX',' ( ');
 define('ATTRIBUTES_PRICE_DELIMITER_SUFFIX',' )');
@@ -61,13 +59,10 @@ define('BOX_HEADING_SEARCH', 'Zoek');
 define('BOX_HEADING_SHOPPING_CART', 'Winkelwagen');
 define('BOX_HEADING_SPECIALS', 'Aanbiedingen');
 define('BOX_HEADING_WHATS_NEW', 'Nieuw in ons assortiment');
-
 define('BOX_INFORMATION_ABOUT_US','Over ons');
 define('BOX_INFORMATION_CONDITIONS', 'Algemene voorwaarden');
 define('BOX_INFORMATION_WIDERRUFSRECHT', 'Retourzending');
 define('BOX_INFORMATION_ZAHLUNGSARTEN', 'Betaal Methode');
-
-
 define('BOX_INFORMATION_IMPRESSUM', 'Afdruk');
 define('BOX_INFORMATION_CONTACT', 'Contact');
 define('BOX_INFORMATION_DISCOUNT_COUPONS', 'Kortingsbonnen');
@@ -79,47 +74,29 @@ define('BOX_INFORMATION_PRIVACY', 'Privacyverklaring');
 define('BOX_INFORMATION_SHIPPING', 'Verzenden &amp; retouren');
 define('BOX_INFORMATION_SITE_MAP', 'Sitemap');
 define('BOX_INFORMATION_UNSUBSCRIBE', 'Afmelden nieuwsbrief');
-
-
-
 define('BOX_MANUFACTURER_INFO_HOMEPAGE', '%s Homepage');
 define('BOX_MANUFACTURER_INFO_OTHER_PRODUCTS', 'Andere artikelen');
-
 define('BOX_NOTIFICATIONS_NOTIFY', 'Informeer mij over de status van <strong>%s</strong>');
 define('BOX_NOTIFICATIONS_NOTIFY_REMOVE', 'Informeer mij niet langer over de status van  <strong>%s</strong>');
-
 define('BOX_REVIEWS_NO_REVIEWS', 'Op dit moment zijn er nog geen recensie\'s.');
-
 define('BOX_REVIEWS_TEXT_OF_5_STARS', '%s van 5 sterren!');
 define('BOX_REVIEWS_WRITE_REVIEW', 'Schrijf een recensie over dit artikel.');
 define('BOX_SEARCH_ADVANCED_SEARCH', 'Uitgebreid zoeken');
-
 define('BOX_SHOPPING_CART_EMPTY', 'Winkelwagen is nog leeg.');
-
-
 define('CAPTION_UPCOMING_PRODUCTS','Dit artikel is binnenkort weer voorradig.');
-
-
-
 define('CART_ITEMS','Artikelen in winkelwagen: ');
 define('CART_QUANTITY_SUFFIX','&nbsp;x ');
-
 define('CART_SHIPPING_METHOD_ADDRESS','Adres:');
-
 define('CART_SHIPPING_METHOD_ALL_DOWNLOADS','- Downloads');
 define('CART_SHIPPING_METHOD_FREE_TEXT','Gratis versturen');
 define('CART_SHIPPING_METHOD_RATES', 'Tarieven');
-
-
 define('CART_SHIPPING_METHOD_TEXT', 'Beschikbare leveringsmethoden');
 define('CART_SHIPPING_METHOD_TO','Afleveradres: ');
-
 define('CART_SHIPPING_OPTIONS', 'bereken verzendkosten');
 define('CART_SHIPPING_QUOTE_CRITERIA', 'Verzendkosten zijn gebaseerd op het door u geselecteerde adres:');
 define('CATEGORIES_BOX_HEADING_FEATURED_PRODUCTS', 'Aanbiedingen...');
 define('CATEGORIES_BOX_HEADING_PRODUCTS_ALL', 'Alle artikelen...');
 define('CATEGORIES_BOX_HEADING_SPECIALS','Aanbiedingen...');
-
 define('CATEGORIES_BOX_HEADING_WHATS_NEW', 'Nieuwe artikelen...');
 define('CATEGORY_COMPANY', 'Bedrijfsnaam');
 define('CATEGORY_PERSONAL', 'Persoonlijke gegevens');
@@ -134,11 +111,9 @@ define('EMAIL_SALUTATION','Hallo');
 define('EMAIL_SEND_FAILED','FOUT: E-mail versturen naar: "%s" <%s> met onderwerp: "%s" is mislukt!');
 define('EMPTY_CART_TEXT_NO_QUOTE', 'Whoops! Uw sessie is verlopen... Om uw verzendkosten te berekenen moet u eerst uw winkelwagen verversen...');
 define('EMP_SHOPPING_FOR_MESSAGE', 'Momenteel aan het winkelen voor %1$s (%2$s).');
-
 define('ENTRY_CITY', 'Woonplaats:');
 define('ENTRY_CITY_ERROR', 'Voor woonplaats moet u minimaal ' . ENTRY_CITY_MIN_LENGTH . ' tekens invoeren.');
 define('ENTRY_CITY_TEXT', '*');
-
 define('ENTRY_COMPANY', 'Bedrijfsnaam:');
 define('ENTRY_COMPANY_ERROR', 'Voer een bedrijfsnaam in.');
 define('ENTRY_COMPANY_TEXT', '');
@@ -154,15 +129,12 @@ define('ENTRY_DATE_TO','Datum tot:');
 define('ENTRY_EMAIL','E-mailadres:');
 define('ENTRY_EMAIL_ADDRESS', 'E-mailadres:');
 define('ENTRY_EMAIL_ADDRESS_CHECK_ERROR', 'Heeft u het e-mailadres correct ingevoerd? Controleer dit en probeer het nogmaals.');
-
 define('ENTRY_EMAIL_ADDRESS_CONFIRM', 'Bevestig E-Mail:');
 define('ENTRY_EMAIL_ADDRESS_CONFIRM_NOT_MATCHING', 'De bevestigings Email moet overeenkomenmet uw Email Adres.');
 define('ENTRY_EMAIL_ADDRESS_ERROR', 'Uw e-mailadres moet voor ons systeem minimaal ' . ENTRY_EMAIL_ADDRESS_MIN_LENGTH . ' tekens en een @ bevatten.');
 define('ENTRY_EMAIL_ADDRESS_ERROR_EXISTS', 'Uw e-mailadres is reeds bij ons geregistreerd! Probeer aan te melden met uw bestaande account. Weet u uw wachtwoord niet meer, gebruik dan de Wachtwoord vergeten optie. Heeft u een nieuw e-mailadres geef dit door via Mijn account.');
 define('ENTRY_EMAIL_ADDRESS_TEXT', '*');
 define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','Ben je je bericht vergeten? We horen graag van je. U kunt uw opmerkingen in het onderstaande tekstveld invoeren.');
-
-
 define('ENTRY_EMAIL_HTML_DISPLAY','HTML');
 define('ENTRY_EMAIL_NAME_CHECK_ERROR','Pardon, is uw naam correct? Ons systeem vereist een minimum van ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' tekens. Probeer het opnieuw.');
 define('ENTRY_EMAIL_PREFERENCE','Nieuwsbrief en e-mail formaat'); 
@@ -186,9 +158,7 @@ define('ENTRY_NEWSLETTER_TEXT', '');
 define('ENTRY_NICK', 'Gebruikersnaam forum:');
 define('ENTRY_NICK_DUPLICATE_ERROR', 'Deze gebruikersnaam is reeds in gebruik. Vul een andere gebruikersnaam in.');
 define('ENTRY_NICK_TEXT', '*'); 
-
 define('ENTRY_PASSWORD', 'Wachtwoord:');
-
 define('ENTRY_PASSWORD_CONFIRMATION', 'Herhaal wachtwoord:');
 define('ENTRY_PASSWORD_CONFIRMATION_TEXT', '*');
 define('ENTRY_PASSWORD_CURRENT', 'Huidige wachtwoord:');
@@ -241,25 +211,21 @@ define('ERROR_PRICE_FROM_MUST_BE_NUM','De prijs van moet een getal zijn.');
 define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM','De prijs tot moet hoger zijn dan of gelijk aan de prijs vanaf.');
 define('ERROR_PRICE_TO_MUST_BE_NUM','De prijs moet een getal zijn.');
 define('ERROR_PRIVACY_STATEMENT_NOT_ACCEPTED', 'Om uw klantgegevens vast te kunnen leggen verzoeken wij u onze privacy verklaring door te lezen en te accepteren door het onderstaande hokje aan te vinken.');
-
 define('ERROR_PRODUCT','<br>Het item: ');
 define('ERROR_PRODUCT_ATTRIBUTES','<br>Het item: ');
 define('ERROR_PRODUCT_OPTION_SELECTION','<br> ... waarde van een optie niet mogelijk ');
 define('ERROR_PRODUCT_QUANTITY_MIN',',  ... Minimum aantal - ');
 define('ERROR_PRODUCT_QUANTITY_UNITS',' ... hoeveelheden fout - ');
-
 define('ERROR_PRODUCT_QUANTITY_MAX',' ...maximum aantal fout - ');
 define('ERROR_PRODUCT_QUANTITY_MAX_SHOPPING_CART',' ... maximum aantal fout - ');
 define('ERROR_PRODUCT_QUANTITY_MIN_SHOPPING_CART',', ... minimum aantal fout - ');
 define('ERROR_PRODUCT_QUANTITY_ORDERED','<br> Totaal aantal artikelen besteld: ');
 define('ERROR_PRODUCT_QUANTITY_UNITS_SHOPPING_CART',' ... hoeveelheden fout - ');
-
 define('ERROR_PRODUCT_STATUS_SHOPPING_CART','<br>Helaas is dit artikel momenteel niet leverbaar.<br>Het artikel is uit uw winkelwagen verwijderd.');
 define('ERROR_PRODUCT_STATUS_SHOPPING_CART_ATTRIBUTES','<br>Het spijt ons, maar de geselecteerde opties zijn veranderd voor dit product en zijn verwijderd uit onze voorraad op dit moment.<br> Dit item is verwijderd uit uw winkelwagen.');
 define('ERROR_QUANTITY_ADJUSTED', 'Fout bij veranderen aantal<br>');
 define('ERROR_QUANTITY_CHANGED_FROM', ', is aangepast van: ');
 define('ERROR_QUANTITY_CHANGED_TO', ' naar ');
-
 define('ERROR_TEXT_COUNTRY_DISABLED_PLEASE_CHANGE', 'Excuus, maar we accepteren geen factuur- en verzendadressen meer in "%s".  Graag dit adres aampassen om verder te kunnen gaan.');
 define('ERROR_TO_DATE_LESS_THAN_FROM_DATE','Tot datum moet groter of gelijk zijn aan Vanaf datum.');
 define('FAILED_TO_ADD_UNAVAILABLE_PRODUCTS','Het (de) geselecteerde product(en) is (zijn) momenteel niet beschikbaar voor aankoop...');
@@ -298,19 +264,13 @@ define('ICON_WARNING_ALT','Waarschuwing');
 define('IMAGE_ALT_PREFIX','(Afbeelding voor)');
 define('IMAGE_ALT_TEXT_NO_TITLE','Een algemeen beeld');
 define('JS_ERROR', 'Er is een fout opgetreden tijden het verwerken van het formulier. \n\nVul s.v.p. alsnog de volgende velden in:\n\n');
-
-
-
 define('JS_ERROR_NO_PAYMENT_MODULE_SELECTED', '* Selecteer een betalingsmethode.');
-
 define('JS_ERROR_SUBMITTED', 'U probeert het formulier meer dan 1 maal te verwerken. Druk op OK en wacht totdat uw aanvraag is verwerkt.');
-
 define('JS_REVIEW_RATING', '* Selecteert u alstublieft een waardering (5 sterren is hoogst) voor dit artikel.');
 define('JS_REVIEW_TEXT', '* Uw recensie moet minimaal ' . REVIEW_TEXT_MIN_LENGTH . ' karakters bevatten.');
 define('LANGUAGE_CURRENCY','EUR');
 define('MALE', 'Man');
 define('META_TAG_PRODUCTS_PRICE_IS_FREE_TEXT','GRATIS!');
-
 define('MORE_INFO_TEXT','... meer info');
 define('NOT_LOGGED_IN_TEXT','niet ingelogd');
 define('ORDER_HEADING_DIVIDER','&nbsp;-&nbsp;');
@@ -323,7 +283,6 @@ define('OTHER_IMAGE_BOX_NOTIFY_REMOVE', 'box_products_notifications_remove.gif')
 define('OTHER_IMAGE_BOX_NOTIFY_YES', 'box_products_notifications.gif');
 define('OTHER_IMAGE_BOX_WRITE_REVIEW', 'box_write_review.gif');
 define('OTHER_IMAGE_CALL_FOR_PRICE', 'call_for_prices.png');
-
 define('OTHER_IMAGE_CUSTOMERS_AUTHORIZATION', 'customer_authorization.gif');
 define('OTHER_IMAGE_CUSTOMERS_AUTHORIZATION_ALT', 'Wacht op autorisatie van klant...');
 define('OTHER_IMAGE_DOWN_FOR_MAINTENANCE', 'down_for_maintenance.gif');
@@ -338,12 +297,8 @@ define('OTHER_REVIEWS_RATING_STARS_FOUR_ALT', 'Vier sterren');
 define('OTHER_REVIEWS_RATING_STARS_ONE_ALT', 'Één ster');
 define('OTHER_REVIEWS_RATING_STARS_THREE_ALT', 'Drie sterren');
 define('OTHER_REVIEWS_RATING_STARS_TWO_ALT', 'Twee sterren');
-
-
 define('OUT_OF_STOCK_CANT_CHECKOUT', 'Producten gemarkeerd met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet op voorraad, of er zijn niet voldioende op voorraad voor uw bestelling.<br>Pas aub de hoeveelheid van de  producten gemarkeerd met (' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . '). Bednkt');
 define('OUT_OF_STOCK_CAN_CHECKOUT', 'Producten gemarkeerd met ' . STOCK_MARK_PRODUCT_OUT_OF_STOCK . ' zijn niet op voorraad.<br>Items die niet op voorraad zijn worden in backorder geplaatst.');
-
-
 define('PAGE_ACCOUNT','Mijn account');
 define('PAGE_ACCOUNT_EDIT','Accountinformatie');
 define('PAGE_ACCOUNT_HISTORY','Bestelhistorie');
@@ -357,58 +312,38 @@ define('PAGE_PRODUCTS_NEW','Nieuwe producten');
 define('PAGE_REVIEWS','Taxaties');
 define('PAGE_SHOPPING_CART','Winkelwagen');
 define('PAGE_SPECIALS','Aanbiedingen');
-
 define('PAYMENT_JAVASCRIPT_DISABLED', 'We konden niet doorgaan met afrekenen omdat Javascript is uitgeschakeld. U moet het inschakelen om verder te gaan');
 define('PAYMENT_METHOD_GV', 'Cadeau- of waardebon');
 define('PAYMENT_MODULE_GV', 'Waardebon/Korting');
-
-
 define('PLEASE_SELECT', 'Selecteer ...');
 define('PREVNEXT_BUTTON_NEXT', '[Volgende&nbsp;&raquo;]');
-
-
 define('PREVNEXT_BUTTON_PREV', '[&laquo;&nbsp;Vorige]');
 define('PREVNEXT_TITLE_NEXT_PAGE', 'Volgende pagina');
-efine('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Volgende %d pagina\'s');
-
-
-
+define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Volgende %d pagina\'s');
 define('PREVNEXT_TITLE_PAGE_NO', 'Pagina %d');
 define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Vorige pagina');
 define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Vorige %d pagina\'s');
-
-
-
-
 define('PREV_NEXT_PRODUCT','Artikel ');
 define('PRIMARY_ADDRESS_TITLE','Belangrijkste adres');
 define('PRODUCTS_ORDER_QTY_TEXT','In winkelwagen: ');
 define('PRODUCTS_ORDER_QTY_TEXT_IN_CART','Aantal in winkelwagen: ');
-
 define('PRODUCTS_PRICE_IS_CALL_FOR_PRICE_TEXT','Prijs op aanvraag');
 define('PRODUCTS_PRICE_IS_FREE_TEXT','Gratis!');
 define('PRODUCTS_QUANTITY_MAX_TEXT_LISTING','Max:');
 define('PRODUCTS_QUANTITY_MIN_TEXT_LISTING','Min: ');
 define('PRODUCTS_QUANTITY_UNIT_TEXT_LISTING','Aantal: ');
-
-
-
-
 define('PRODUCT_PRICE_DISCOUNT_AMOUNT','&nbsp;korting');
 define('PRODUCT_PRICE_DISCOUNT_PERCENTAGE','% korting');
 define('PRODUCT_PRICE_DISCOUNT_PREFIX','Korting:&nbsp;');
 define('PRODUCT_PRICE_SALE','Aanbieding:&nbsp;');
 define('PULL_DOWN_ALL','Maak een keuze');
-
 define('PULL_DOWN_ALL_RESET','- Herstellen - ');
 define('PULL_DOWN_DEFAULT', 'Selecteer uw land');
 define('PULL_DOWN_MANUFACTURERS','- Herstellen -');
-
 define('PULL_DOWN_SHIPPING_ESTIMATOR_SELECT', 'Maak een keuze');
 define('SEND_TO_TEXT','Stuur een e-mail naar:');
 define('SET_AS_PRIMARY' , 'Stel in als Hoofdadres');
 define('SUCCESS_ADDED_TO_CART_PRODUCT', 'Gekozen artikel is in uw winkelwagen geplaatst...');
-
 define('SUCCESS_ADDED_TO_CART_PRODUCTS', 'Gekozen artikel(en) in winkelwagen geplaatst...');
 define('SUCCESS_FILE_SAVED_SUCCESSFULLY', 'Oké:  bestand is ontvangen.');
 define('TABLE_ATTRIBUTES_QTY_PRICE_QTY','AANTAL');
@@ -416,7 +351,6 @@ define('TABLE_ATTRIBUTES_QTY_PRICE_PRICE','PRIJS');
 define('TABLE_HEADING_ADDRESS_DETAILS', 'Adresgegevens');
 define('TABLE_HEADING_BUY_NOW','Nu kopen');
 define('TABLE_HEADING_BYTE_SIZE','Bestandsgrootte');
-
 define('TABLE_HEADING_CREDIT_PAYMENT', 'Beschikbaar tegoed');
 define('TABLE_HEADING_DATE_EXPECTED', 'Verwachte datum');
 define('TABLE_HEADING_DATE_OF_BIRTH', 'Geboortedatum');
@@ -458,7 +392,6 @@ define('TEXT_ATTRIBUTE_IS_FREE','Nu gratis]');
 define('TEXT_AUTHORIZATION_PENDING_BUTTON_REPLACE', 'WACHT OP AUTORISATIE');
 define('TEXT_AUTHORIZATION_PENDING_CHECKOUT', 'Checkout onbeschikbaar - Wacht op goedkeuring');
 define('TEXT_AUTHORIZATION_PENDING_PRICE', 'Prijs niet weergegeven');
-
 define('TEXT_BANNER_BOX','Bezoek onze adverteerder...');
 define('TEXT_BANNER_BOX2','Bekijk vandaag nog onze aanbieding!');
 define('TEXT_BANNER_BOX_ALL','Bezoek onze adverteerder...');
@@ -601,7 +534,6 @@ define('TEXT_VALID_COUPON','Gefeliciteerd, u heeft de kortingscoupon verzilverd'
 define('TEXT_WORDS_FREE','Gratis woord(en)');
 define('TEXT_XSELL_PRODUCTS','Wij raden dit artikel aan'); 
 define('TEXT_YOUR_IP_ADDRESS','Uw IP-adres is: ');
-
 define('TYPE_BELOW', 'Maak een keuze ...');
 define('WARNING_COULD_NOT_LOCATE_LANG_FILE', 'Waarschuwing: Kon het taalbestand niet vinden: ');
 define('WARNING_NO_FILE_UPLOADED', 'Let op:  geen bestand geupload.');

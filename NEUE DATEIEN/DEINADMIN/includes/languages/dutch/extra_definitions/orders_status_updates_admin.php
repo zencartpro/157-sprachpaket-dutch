@@ -2,16 +2,15 @@
 /**
  * Zen Cart German Specific
  * Constants used by the zen_update_orders_history function.
- *
- 
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * 
+ * @copyright Copyright 2003-2024 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: orders_status_updates_admin.php 2022-02-04 18:58:14Z webchills $
+ * @version $Id: orders_status_updates_admin.php 2024-05-13 18:58:14Z webchills $
  */
 define('OSH_EMAIL_SEPARATOR', '------------------------------------------------------');
-define('OSH_EMAIL_TEXT_SUBJECT', 'Order Update');
+define('OSH_EMAIL_TEXT_SUBJECT', 'Bestelstatus bijgewerkt');
 define('OSH_EMAIL_TEXT_ORDER_CUSTOMER_GENDER_MALE', 'Geachte heer ');
 define('OSH_EMAIL_TEXT_ORDER_CUSTOMER_GENDER_FEMALE', 'Geachte mevrouw ');
 define('OSH_EMAIL_TEXT_ORDER_CUSTOMER_NEUTRAL', 'Goedendag ');
