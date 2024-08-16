@@ -1,5 +1,7 @@
 ##### add dutch definitions for multilanguage countries_names
 
+DELETE FROM `countries_name` WHERE `language_id` = 31;
+
 INSERT IGNORE INTO `countries_name` (`countries_id`, `language_id`, `countries_name`) VALUES
 (1, 31, 'Afghanistan'),
 (2, 31, 'Albanië'),
